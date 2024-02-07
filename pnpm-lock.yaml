@@ -448,8 +448,8 @@ importers:
         specifier: ^0.3.11
         version: 0.3.11
       rlp:
-        specifier: ^2.2.7
-        version: 2.2.7
+        specifier: ^3.0.0
+        version: 3.0.0
       semver:
         specifier: ^7.5.4
         version: 7.5.4
@@ -9884,6 +9884,7 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
+    bundledDependencies: false
 
   /event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
@@ -15405,6 +15406,12 @@ packages:
     hasBin: true
     dependencies:
       bn.js: 5.2.1
+    dev: true
+
+  /rlp@3.0.0:
+    resolution: {integrity: sha512-PD6U2PGk6Vq2spfgiWZdomLvRGDreBLxi5jv5M8EpRo3pU6VEm31KO+HFxE18Q3vgqfDrQ9pZA3FP95rkijNKw==}
+    hasBin: true
+    dev: false
 
   /rollup-plugin-visualizer@5.12.0:
     resolution: {integrity: sha512-8/NU9jXcHRs7Nnj07PF2o4gjxmm9lXIrZ8r175bT9dK8qoLlvKTwRMArRCMgpMGlq8CTLugRvEmyMeMXIU2pNQ==}
